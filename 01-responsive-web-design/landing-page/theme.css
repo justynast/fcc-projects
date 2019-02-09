@@ -1,0 +1,31 @@
+.jumbotron {
+  position: relative;
+  color: white;
+  background-image: url("https://i.imgur.com/Zg4lR0m.jpg") !important;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height: 350px;
+  background-position: bottom;
+}
+#title {
+   position: absolute;
+   bottom: 10px;
+   left: 30px;
+}
+#main {
+  text-align: justify;
+}
+#portrait {
+  width: 150px;
+  border-radius: 100px !important;
+  margin-right: 25px;
+}
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  line-height: 2.5 !important;
+}

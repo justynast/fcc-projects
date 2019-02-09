@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product landing page</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+
+ <div id="header">
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="nav-bar">
+         <a class="navbar-brand" href="#">
+     <img src="https://i.imgur.com/FtyPsli.png" width="30" height="30" alt="" id="header-img">
+   </a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+       <div class="navbar-nav">
+         <a class="nav-item nav-link" href="#about">About</a>
+         <a class="nav-item nav-link" href="#vid">Video</a>
+         <a class="nav-item nav-link" href="#contact">Contact</a>
+       </div>
+     </div>
+  </nav>
+
+   <div class="jumbotron jumbotron-fluid">
+   <div class="container">
+     <h1 class="display-1" id="title">Ukulele lessons</h1>
+   </div>
+ </div>
+
+   <div class="container" id="main">
+     <h1 id="about">About</h1>
+     <hr>
+     <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" id="portrait" class="rounded float-left">
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum magna nunc, viverra sit amet interdum ac, ultrices eget eros. Nam non augue ac nisi congue cursus quis quis eros. <br> <br>
+       Pellentesque sed porta nisl, a hendrerit velit. Maecenas vel orci feugiat, tempor enim ac, rhoncus elit. Nulla ac eros hendrerit, placerat nulla sed, egestas quam. Pellentesque eu ipsum ligula. Donec faucibus, leo sit amet consectetur condimentum, sapien est lacinia lacus, ac volutpat erat augue sed lectus. <br> <br>
+       Nam pretium, erat a commodo sodales, ligula sapien finibus diam, cursus volutpat erat mauris maximus leo. Nullam mi eros, consectetur et consequat elementum, lobortis eget tellus. </p>
+     <br>
+     <h1 id="vid">Video</h1>
+     <hr>
+     <p>Nunc commodo, risus vitae bibendum faucibus, nisl magna vehicula tellus, bibendum egestas justo lacus in turpis. Donec vel nibh metus. Duis congue quis est at convallis. Pellentesque aliquam auctor felis quis accumsan.</p>
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/DpGMfPf_2Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+     <h1 id="contact">Contact me</h1>
+     <hr>
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div class="row">
+   <div class="col">
+        <input type="text" class="form-control" placeholder="Name" id="name" required>
+</div>
+   <div class="col">
+        <input type="email" class="form-control" name="email" placeholder="E-mail" id="email" required>
+                                                                                                  </div>
+   </div>
+      <br>
+        <textarea class="form-control" id="comments" class="input-field" name="comment" placeholder="Enter your message here"/></textarea><br>
+       <input type='submit' id="submit" value='submit'  />
+     <br><br>
+     </form>
+   </div>
+   <br>
+</div>
+
+ <footer class="page-footer font-small text-light bg-dark">
+ <div class="footer-copyright text-center py-3">© 2019 Copyright: Justyna Stepniak</a>
+ </div>
+
+</footer>
+
+</body>
+
+</html>
