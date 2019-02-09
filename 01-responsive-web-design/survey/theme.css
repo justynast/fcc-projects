@@ -1,0 +1,21 @@
+body {
+  font-family: Verdana, sans-serif;
+  text-align: left;
+  background-color: #5d576b;
+
+}
+
+header {
+  margin: 20px;
+  padding: 10px;
+  color: #f1dede;
+}
+
+#main {
+  margin: 20px;
+  padding: 20px;
+  width: 50%;
+  line-height: 2;
+  background-color: #f1dede;
+  border-radius: 10px;
+}
