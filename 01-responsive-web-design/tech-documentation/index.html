@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Technical documentation</title>
+<link rel="stylesheet" type="text/css" href="theme.css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>
+    <h1>Python 3.7 documentation</h1>
+    </header>
+    <div id="nav-links">
+    <ul>
+    <a href="#introduction" class="nav-link"><li>Introduction</li></a>
+    <a href="#hello_world" class="nav-link"><li>Hello world</li></a>
+    <a href="#variables" class="nav-link"><li>Variables</li></a>
+    <a href="#if_statements" class="nav-link"><li>If statements</li></a>
+    <a href="#for_statements" class="nav-link"><li>For statements</li></a>
+    </ul>
+    </div>
+  </nav>
+
+  <main id="main-doc">
+  <section class="main-section" id="introduction">
+    <header id="introduction"><h2>Introduction</h2></header>
+    <p><b>Python</b> is an interpreted, high-level, general-purpose programming language.
+       Created by Guido van Rossum and first released in 1991, Python has a design
+       philosophy that emphasizes code readability, notably using significant whitespace.
+        It provides constructs that enable clear programming on both small and large scales.
+    </p>
+    <p>The language's core philosophy is summarized in the document The Zen of Python (PEP 20),
+      which includes aphorisms such as:
+      <ul>
+    <li>Beautiful is better than ugly</li>
+    <li>Explicit is better than implicit</li>
+    <li>Simple is better than complex</li>
+    <li>Complex is better than complicated</li>
+    <li>Readability counts</li>
+  </ul>
+    </p>
+  </section>
+  <section class="main-section" id="hello_world">
+    <header id="hello_world"><h2>Hello world</h2></header>
+      <p>This simple line of code prints "Hello, world!".
+      <code>print("Hello, world!")</code>
+  </section>
+
+
+</section>
+<section class="main-section" id="variables">
+  <header id="variables"><h2>Variables</h2></header>
+  <p>Unlike other programming languages, Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.</p>
+<code>x = 5
+y = "John"
+print(x)
+print(y)</code>
+<p>Output:</p>
+<code>5
+John</code>
+<p>Variables do not need to be declared with any particular type and can even change type after they have been set.</p>
+<code>x = 4 # x is of type int
+x = "Sally" # x is now of type str
+print(x)</code>
+<p>Output:</p>
+<code>Sally</code>
+
+</section>
+
+  <section class="main-section" id="if_statements">
+    <header id="if_statements"><h2>If statements</h2></header>
+    <p>Perhaps the most well-known statement type is the if statement. For example:</p>
+    <code>x = int(input("Please enter an integer: "))
+Please enter an integer: 42
+if x < 0:
+  x = 0
+  print('Negative changed to zero')
+elif x == 0:
+  print('Zero')
+elif x == 1:
+  print('Single')
+else:
+  print('More')</code>
+  <p>Output:</p>
+  <code>More</code>
+  </section>
+  <section class="main-section" id="for_statements">
+    <header id="for_statements"><h2>For statements</h2></header>
+    <p>The for statement in Python differs a bit from what you may be used to in C or Pascal.
+      Rather than always iterating over an arithmetic progression of numbers (like in Pascal),
+      or giving the user the ability to define both the iteration step and halting condition (as C),
+       Python’s for statement iterates over the items of any sequence (a list or a string), in the order
+       that they appear in the sequence. For example (no pun intended):</p>
+       <code># Measure some strings:
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+  print(w, len(w))</code>
+  <p>Output:</p>
+  <code>cat 3
+window 6
+defenestrate 12</code>
+
+
+</main>
+
+</body>
+
+</html>
