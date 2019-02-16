@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal Portfolio</title>
+<link rel="stylesheet" type="text/css" href="theme.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar fixed to top -->
+<nav id="navbar">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Welcome section -->
+
+<div id="welcome-section">
+  <div id="welcome-title">
+    <h1>I spent six hours choosing this color palette</h1>
+    <p>And I enjoyed it</p>
+    <div id="profiles">
+      <a href="https://github.com/justynast" id="profile-link" target="_blank"><button type="button"><i class="fab fa-github"></i> GitHub</button></a>
+      <a href="https://www.freecodecamp.org/justynast" id="profile-link" target="_blank"><button type="button"><i class="fab fa-free-code-camp"></i> freeCodeCamp</button></a>
+    </div>
+  </div>
+</div>
+
+<main>
+
+  <div id="about" class="content">
+    <h2>About me</h2>
+    <div id="photo"></div>
+    <p>My name is <b>Justyna Stępniak</b> and I am an aspiring front-end developer fueled by my passion
+    for aesthetic design and clean code.</p>
+    <p>I am enthusiastic about art and travel. I shoot film, embroider and explore the world.</p>
+
+  </div>
+
+  <div id="stack" class="content">
+    <div id="known">
+      <h3>I have knowledge of:</h3>
+      <p><i class="fab fa-html5 fa-3x"></i>
+      <i class="fab fa-css3-alt fa-3x"></i>
+      <i class="fab fa-python fa-3x"></i></p>
+    </div>
+    <div id="progress">
+      <h3>Learning in progress:</h3>
+      <p><i class="fab fa-js fa-3x"></i>
+      <i class="fab fa-sass fa-3x"></i></p>
+    </div>
+    <div id="tolearn">
+      <h3>Eager to learn:</h3>
+      <p><i class="fab fa-java fa-3x"></i></p>
+    </div>
+  </div>
+
+  <div id="projects" class="content">
+    <h2>My projects</h2>
+    <div id="container">
+      <div id="p1" class="project">
+        <h4 class="project-title">Project 1 title</h4>
+        <div class="imgplaceholder"></div>
+      </div>
+      <div id="p2" class="project">
+        <h4 class="project-title">Project 2 title</h4>
+        <div class="imgplaceholder"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="content">
+    <h2>Contact me</h2>
+    <form id="form" action="#submit">
+      <input type="text" class="form-element" placeholder="Name" id="name" required>
+      <input type="email" class="form-element" placeholder="E-mail" id="email" required>
+      <textarea class="form-element" id="textarea" placeholder="Enter your message here"/></textarea>
+      <p><input type='submit' id="submit" value='submit'  /></p>
+    </form>
+  </div>
+
+</main>
+
+<footer id="footer">
+  <p>2019 Copyright: Justyna Stepniak</p>
+</footer>
+
+</body>
+
+</html>
