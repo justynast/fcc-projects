@@ -139,7 +139,17 @@ main h2 {
   text-align: center;
 }
 
-.imgplaceholder {
+a {
+  color: var(--dark-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--main--brand);
+  text-decoration: underline;
+}
+
+.project-tile {
     background-color: var(--dark--accent);
     display: flex;
     height: 180px;
